@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #394046;
+}
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    display: block;
+    background-color: #000000;
+}
+canvas:hover {
+    cursor: none;
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    display: block;
+    background-color: #000000; 
+    overflow: hidden;
+    position: relative;
+}
+
+#play_btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#audio_btn {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.flex-grid {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
+
+#details {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    color: #5c6770;
+}
+
+#details svg {
+    margin-bottom: -4px;
+    margin-right: 4px;
+}
+
+#details a {
+    color: #5c6770;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

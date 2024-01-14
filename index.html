@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="EB_core/assets/css/styles.css">
+</head>
+
+<body>
+
+    
+    <div id="menu">
+        <button id="play_btn" onclick="init()"><img src="public/assets/images/play_button.png" alt="play button"></button>
+        <button id="audio_btn" onclick="mute()"><img src="public/assets/images/audio_on.png" alt="audio button"></button>
+    </div>
+
+    <div id="details" class="flex-grid">
+        <div class="col">
+            <!-- debug -->
+            <!-- <button onclick="debug()">Debug</button>
+            <script>function debug() { game.debug = true; }</script> -->
+            <p style="margin-top: 0px;">- Art/Animation by: Keith Spang</p>
+            <p>- Music/Sound FX by: Keith Spang & Jonathan Spang</p>
+            <p>- Development by: Keith Spang</p>
+        </div>
+
+        <div class="col">
+            <a href="https://github.com/kspangdg/Everything-Bagel" target="_blank" rel="noopener" style="float: right;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="github" width="20" height="20"><path d="M9.998 0C4.478 0 0 4.496 0 10.04a10.038 10.038 0 0 0 6.84 9.526c0.5 0.092 0.682 -0.218 0.682 -0.484l-0.014 -1.708c-2.782 0.606 -3.368 -1.346 -3.368 -1.346 -0.454 -1.16 -1.11 -1.468 -1.11 -1.468 -0.908 -0.622 0.068 -0.61 0.068 -0.61 1.004 0.072 1.532 1.034 1.532 1.034 0.892 1.534 2.342 1.092 2.912 0.834 0.09 -0.648 0.348 -1.092 0.636 -1.342 -2.22 -0.254 -4.554 -1.114 -4.554 -4.962 0 -1.096 0.39 -1.992 1.03 -2.696 -0.104 -0.254 -0.446 -1.274 0.098 -2.656 0 0 0.84 -0.27 2.75 1.028a9.542 9.542 0 0 1 2.504 -0.338 9.562 9.562 0 0 1 2.504 0.338c1.908 -1.298 2.748 -1.028 2.748 -1.028 0.546 1.382 0.202 2.402 0.1 2.656 0.642 0.702 1.028 1.598 1.028 2.696 0 3.856 -2.338 4.706 -4.566 4.954 0.358 0.31 0.678 0.922 0.678 1.858 0 1.342 -0.012 2.424 -0.012 2.754 0 0.268 0.18 0.582 0.688 0.482A10.04 10.04 0 0 0 20 10.04C20 4.496 15.522 0 9.998 0z" fill="#5c6770"/></svg>
+                <span class="p">Source Code</span>
+            </a>
+        </div>
+    </div>
+    
+
+    <!-- Core Scripts -->
+    <script src="EB_core/classes/menu.js"></script>
+    <script src="EB_core/classes/config.js"></script>
+    <script src="EB_core/classes/clock.js"></script>
+    <script src="EB_core/classes/physics.js"></script>
+    <script src="EB_core/classes/sprite.js"></script>
+    <script src="EB_core/classes/background.js"></script>
+    <script src="EB_core/classes/player.js"></script>
+    <script src="EB_core/classes/audio.js"></script>
+    <script src="EB_core/classes/input.js"></script>
+
+
+    <!-- Public Scripts -->
+    <script src="public/scripts/game.js"></script>
+    <script src="public/scripts/update.js"></script>
+
+</body>
